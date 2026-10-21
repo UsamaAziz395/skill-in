@@ -3,7 +3,7 @@ import Skillindata from '../../data/Skillindata'
 
 
 
-function WhatIsSkilline() {
+function Skillin() {
 
 
   return (
@@ -54,4 +54,4 @@ function WhatIsSkilline() {
   );
 }
 
-export default WhatIsSkilline;
+export default Skillin;
