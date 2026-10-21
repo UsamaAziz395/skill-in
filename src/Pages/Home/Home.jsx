@@ -9,15 +9,15 @@ import Integrations from '../../Components/Integration/Integration'
 import Assessments from '../../Components/Assessment/Assessments'
 import ClassManagement from '../../Components/Managment/Managment'
 import Discussions from '../../Components/Discussions/Discussions'
-import Hero from '../../Sections/Hero/hero'
+
 import Testimonial from '../../Components/Testimonials/Testimonials'
 import Resources from '../../Sections/Resources/Resources'
+import Hero from '../../Sections/Hero/Hero'
 
 function Home() {
   return (
     <div>
 
-   
       <Hero />
       <Labels />
       <Cloud />
