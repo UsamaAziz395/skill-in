@@ -29,7 +29,7 @@ function Home() {
       <Assessments />
       <ClassManagement />
       <Discussions />
-          <Integrations />
+      <Integrations />
       <Testimonial />
       <Resources />
       <Footer />

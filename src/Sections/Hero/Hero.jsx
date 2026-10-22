@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaPlay, FaGraduationCap, FaEnvelope, FaChartBar, FaCheckCircle } from "react-icons/fa";
 import Heroimg from '../../assets/images/Hero/Heroimg.png';
 import Navbar from "../../Components/Navbar/Navbar";
@@ -17,7 +18,7 @@ function Hero() {
         
         {/* LEFT SIDE: Text Content */}
         <div className="text-left mt-5 lg:mt-0 z-20">
-          <h1 className="text-4xl font-bold  mb-6">
+          <h1 className="text-4xl font-bold mb-6">
             <span className="text-[#F48C06]">Studying</span> <span className="text-[#2F327D]">Online is now</span> <br />
             <span className="text-[#2F327D]">much easier</span>
           </h1>
@@ -28,10 +29,16 @@ function Hero() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center gap-6">
-            <button className="w-full sm:w-auto bg-[#F48C06] text-white font-medium px-8 py-3 rounded-full hover:bg-[#d97a05] transition-colors shadow-lg shadow-orange-200">
-              Join for free
-            </button>
             
+            {/* Join for Free - Linked to SignIn */}
+            <Link 
+              to="/signin" 
+              className="w-full sm:w-auto bg-[#F48C06] text-white text-center font-medium px-8 py-3 rounded-full hover:bg-[#d97a05] transition-colors shadow-lg shadow-orange-200"
+            >
+              Join for free
+            </Link>
+            
+            {/* Watch Video Button (No Modal) */}
             <button className="flex items-center gap-3 group">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#23BDEE] shadow-md group-hover:scale-105 transition-transform">
                 <FaPlay className="ml-1 text-sm" />
@@ -112,7 +119,6 @@ function Hero() {
       </div>
 
       {/* ================= BOTTOM CURVE DESIGN ================= */}
-    
       <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-0">
         <svg 
           viewBox="0 0 1440 120" 
