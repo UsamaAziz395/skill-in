@@ -7,7 +7,7 @@ import picfour from '../../assets/images/Managment/picfour.png';
 
 function ClassManagement() {
   return (
-    <section className="py-20 px-4 max-w-6xl mx-auto font-sans overflow-hidden">
+    <section className="py-10 px-4 max-w-6xl mx-auto font-sans overflow-hidden">
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-10 items-center">
         

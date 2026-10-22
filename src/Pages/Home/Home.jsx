@@ -12,6 +12,8 @@ import Discussions from '../../Components/Discussions/Discussions'
 import Testimonial from '../../Components/Testimonials/Testimonials'
 import Resources from '../../Sections/Resources/Resources'
 import Hero from '../../Sections/Hero/Hero'
+import OurFeatures from '../../Sections/Features/Features'
+
 
 function Home() {
   return (
@@ -23,13 +25,15 @@ function Home() {
       <Skillin />
       <Classroom />
       <Tools />
-      <Integrations />
+      <OurFeatures />
       <Assessments />
       <ClassManagement />
       <Discussions />
+          <Integrations />
       <Testimonial />
       <Resources />
       <Footer />
+  
       
     </div>
   )
